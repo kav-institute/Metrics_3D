@@ -1,6 +1,6 @@
 import numpy as np
 import open3d as o3d
-from common import *
+from diprolea_3d_metrics.src.common import *
 
 def compare(bbs, metric='BBD'):
     n = len(bbs)
